@@ -1,0 +1,125 @@
+/* === Contact Section === */
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 2.5rem;
+}
+
+/* === Container === */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* === Info Section === */
+.contact-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #4b5563;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.contact-icons a {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 0.6rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icons a:hover {
+    background-color: #2563eb;
+    transform: scale(1.1);
+}
+
+/* === Form === */
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background-color: #f3f4f6;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    background-color: #fff;
+}
+
+.contact-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-icons {
+        justify-content: center;
+    }
+}

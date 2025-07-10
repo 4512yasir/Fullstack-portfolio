@@ -1,0 +1,102 @@
+/* === About Container === */
+.about-container {
+    background-color: #ffffff;
+    padding: 4rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* === Grid Layout for Content === */
+.about-content {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* === Text Section === */
+.about-text {
+    flex: 1 1 600px;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.about-text h3 {
+    font-size: 1.4rem;
+    color: #2563eb;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.about-text p {
+    color: #4b5563;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* === List Section (Mindset Points) === */
+.about-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.about-text ul li {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    color: #374151;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* === Image Section === */
+.about-image {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* === Responsive Tweaks === */
+@media (max-width: 960px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text h3 {
+        font-size: 1.25rem;
+    }
+
+    .about-text ul {
+        justify-content: center;
+    }
+
+    .about-image img {
+        max-width: 300px;
+    }
+}
