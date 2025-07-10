@@ -47,7 +47,7 @@ function Home() {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          Hi, I’m <span className="name">Yaska</span> 👋
+          Hi, I’m <span className="name">Yasir Mohammed Ahmed</span> 👋
         </h1>
         <h2>
           <Typewriter

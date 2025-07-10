@@ -15,7 +15,7 @@ function About() {
           <h2>About Me</h2>
 
           <p>
-            I'm <strong>Yaska</strong> — a creative and analytical thinker driven by a deep passion for software engineering and design. I love turning ideas into elegant solutions that solve real-world problems.
+            I'm <strong>Yasir Mohammed Ahmed</strong> — a creative and analytical thinker driven by a deep passion for software engineering and design. I love turning ideas into elegant solutions that solve real-world problems.
           </p>
 
           <p>
